@@ -1,0 +1,5 @@
+C:\work\RamanMapping\lib\PeakFinder\PeakFinder\bin\Debug\PeakFinder.dll
+C:\work\RamanMapping\lib\PeakFinder\PeakFinder\bin\Debug\PeakFinder.pdb
+C:\work\RamanMapping\lib\PeakFinder\PeakFinder\obj\Debug\PeakFinder.csproj.CoreCompileInputs.cache
+C:\work\RamanMapping\lib\PeakFinder\PeakFinder\obj\Debug\PeakFinder.dll
+C:\work\RamanMapping\lib\PeakFinder\PeakFinder\obj\Debug\PeakFinder.pdb

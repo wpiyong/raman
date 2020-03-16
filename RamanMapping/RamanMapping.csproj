@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E41CBE8-D8AA-4666-90B3-C4884B4B64B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RamanMapping</RootNamespace>
+    <AssemblyName>RamanMapping</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WIN64</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WIN64</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="405Analyzer">
+      <HintPath>..\lib\405Analyzer\bin\Debug\405Analyzer.dll</HintPath>
+    </Reference>
+    <Reference Include="ACS.SPiiPlusNET, Version=2.70.0.26392, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\software\SPiiPlus ADK Suite v.2.70\program files\ACS Motion Contro\SPiiPlus ADK Suite v2.70\SPiiPlus .NET Library\ACS.SPiiPlusNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicDataDisplay, Version=0.4.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Maps, Version=0.1.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Markers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Markers.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Markers2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Markers2.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageProcessorLib">
+      <HintPath>..\..\Libs\ImageProcessorLib\ImageProcessorLib\bin\x64\Release\ImageProcessorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Expression.Interaction.3.0.40218.0\lib\net45\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.8\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="PeakFinder, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\PeakFinder\PeakFinder\bin\Debug\PeakFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="SettingsLib">
+      <HintPath>..\..\Libs\SettingsLib\bin\x64\Release\SettingsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SpinnakerNETGUI_v140">
+      <HintPath>..\..\..\Program Files\Point Grey Research\Spinnaker\bin64\vs2015\SpinnakerNETGUI_v140.dll</HintPath>
+    </Reference>
+    <Reference Include="SpinnakerNET_v140">
+      <HintPath>..\..\..\Program Files\Point Grey Research\Spinnaker\bin64\vs2015\SpinnakerNET_v140.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Expression.Interaction.3.0.40218.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ViewModelLib">
+      <HintPath>..\..\Libs\ViewModelLib\bin\x64\Release\ViewModelLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="Model\RamanAnalyzer.cs" />
+    <Compile Include="ViewModel\MotorSettingsViewModel.cs" />
+    <Compile Include="ViewModel\PhosResultsViewModel.cs" />
+    <Compile Include="ViewModel\SpectrumSettingsViewModel.cs" />
+    <Compile Include="View\MotorSettings.xaml.cs">
+      <DependentUpon>MotorSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PhosResultsWindow.xaml.cs">
+      <DependentUpon>PhosResultsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SpectrumSettings.xaml.cs">
+      <DependentUpon>SpectrumSettings.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\CameraSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Arduino.cs" />
+    <Compile Include="Model\AvantesSpectrometer.cs" />
+    <Compile Include="Model\Avaspec.cs" />
+    <Compile Include="Model\Camera.cs" />
+    <Compile Include="Model\MotorManager.cs" />
+    <Compile Include="Model\MotorSettings.cs" />
+    <Compile Include="Model\PtGreyCamera.cs" />
+    <Compile Include="Model\SPCHelper.cs" />
+    <Compile Include="Model\SpectrometerSettings.cs" />
+    <Compile Include="ViewModel\CameraViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowVM.cs" />
+    <Compile Include="ViewModel\MeasurementViewModel.cs" />
+    <Compile Include="ViewModel\SpectrometerViewModel.cs" />
+    <Compile Include="ViewModel\StatusViewModel.cs" />
+    <Compile Include="ViewModel\UtilityViewModel.cs" />
+    <Compile Include="ViewModel\XYZAxesViewModel.cs" />
+    <Compile Include="View\CameraSettings.xaml.cs">
+      <DependentUpon>CameraSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\MotorSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PhosResultsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SpectrumSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="motorSettings.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="raman_mapping_settings.config" />
+    <None Include="SpectrometerSettings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo_down.png" />
+    <Resource Include="Images\logo_left.png" />
+    <Resource Include="Images\logo_right.png" />
+    <Resource Include="Images\logo_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calibrate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExternalDlls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\camerasettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fluorescence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\folder_select.png" />
+    <Resource Include="Images\save_all.png" />
+    <Resource Include="Images\save_current.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\motor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\spectrometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Batch_Process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\laser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calibrate_ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\led.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mapping.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(ProjectDir)ExternalDlls\$(PlatformName)\*.dll" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

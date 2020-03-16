@@ -1,0 +1,14 @@
+C:\work\RamanMapping\lib\405Analyzer\obj\Debug\405Analyzer.csproj.CoreCompileInputs.cache
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\AnalyzerSettings.config
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\SapphireAnalyzerSettings.config
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\405Analyzer.dll
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\405Analyzer.pdb
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\MathNet.Numerics.dll
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\PeakFinder.dll
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\SettingsLib.dll
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\MathNet.Numerics.xml
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\PeakFinder.pdb
+C:\work\RamanMapping\lib\405Analyzer\bin\Debug\SettingsLib.pdb
+C:\work\RamanMapping\lib\405Analyzer\obj\Debug\405Analyzer.csproj.CopyComplete
+C:\work\RamanMapping\lib\405Analyzer\obj\Debug\405Analyzer.dll
+C:\work\RamanMapping\lib\405Analyzer\obj\Debug\405Analyzer.pdb

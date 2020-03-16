@@ -1,0 +1,8 @@
+C:\work\RamanMapping\RamanMapping\obj\Debug\RamanMapping.csprojAssemblyReference.cache
+C:\work\RamanMapping\RamanMapping\obj\Debug\View\CameraSettings.g.cs
+C:\work\RamanMapping\RamanMapping\obj\Debug\View\MotorSettings.g.cs
+C:\work\RamanMapping\RamanMapping\obj\Debug\View\PhosResultsWindow.g.cs
+C:\work\RamanMapping\RamanMapping\obj\Debug\App.g.cs
+C:\work\RamanMapping\RamanMapping\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\work\RamanMapping\RamanMapping\obj\Debug\RamanMapping_MarkupCompile.cache
+C:\work\RamanMapping\RamanMapping\obj\Debug\RamanMapping_MarkupCompile.lref

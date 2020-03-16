@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="_405Analyzer" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+  <userSettings>
+    <_405Analyzer>
+      <setting name="N3_START_WAVELEN" serializeAs="String">
+        <value>414</value>
+      </setting>
+      <setting name="N3_END_WAVELEN" serializeAs="String">
+        <value>416.5</value>
+      </setting>
+      <setting name="DIAMOND_START_WAVELEN" serializeAs="String">
+        <value>427</value>
+      </setting>
+      <setting name="DIAMOND_END_WAVELEN" serializeAs="String">
+        <value>430</value>
+      </setting>
+      <setting name="DIAMOND_N3_VIB_END_WAVELEN" serializeAs="String">
+        <value>433</value>
+      </setting>
+      <setting name="_468_START_WAVELEN" serializeAs="String">
+        <value>468</value>
+      </setting>
+      <setting name="_468_END_WAVELEN" serializeAs="String">
+        <value>470</value>
+      </setting>
+      <setting name="_468_START_WAVELEN_SMOOTH" serializeAs="String">
+        <value>463</value>
+      </setting>
+      <setting name="_468_END_WAVELEN_SMOOTH" serializeAs="String">
+        <value>473</value>
+      </setting>
+      <setting name="_490_START_WAVELEN" serializeAs="String">
+        <value>488</value>
+      </setting>
+      <setting name="_490_END_WAVELEN" serializeAs="String">
+        <value>492</value>
+      </setting>
+      <setting name="_525_START_WAVELEN" serializeAs="String">
+        <value>524</value>
+      </setting>
+      <setting name="_525_END_WAVELEN" serializeAs="String">
+        <value>526</value>
+      </setting>
+      <setting name="SIV_START_WAVELEN" serializeAs="String">
+        <value>737</value>
+      </setting>
+      <setting name="SIV_END_WAVELEN" serializeAs="String">
+        <value>739</value>
+      </setting>
+      <setting name="SIV_START_WAVELEN_SMOOTH" serializeAs="String">
+        <value>700</value>
+      </setting>
+      <setting name="SIV_END_WAVELEN_SMOOTH" serializeAs="String">
+        <value>780</value>
+      </setting>
+      <setting name="_788_START_WAVELEN" serializeAs="String">
+        <value>787</value>
+      </setting>
+      <setting name="_788_END_WAVELEN" serializeAs="String">
+        <value>789</value>
+      </setting>
+      <setting name="_788_START_WAVELEN_SMOOTH" serializeAs="String">
+        <value>783</value>
+      </setting>
+      <setting name="_788_END_WAVELEN_SMOOTH" serializeAs="String">
+        <value>793</value>
+      </setting>
+      <setting name="NI_START_WAVELEN" serializeAs="String">
+        <value>878</value>
+      </setting>
+      <setting name="NI_END_WAVELEN" serializeAs="String">
+        <value>883</value>
+      </setting>
+      <setting name="NI_START_WAVELEN_SMOOTH" serializeAs="String">
+        <value>849</value>
+      </setting>
+      <setting name="NI_END_WAVELEN_SMOOTH" serializeAs="String">
+        <value>900</value>
+      </setting>
+      <setting name="N3_MAX_FWHM" serializeAs="String">
+        <value>1.8</value>
+      </setting>
+      <setting name="DIAMOND_MAX_FWHM" serializeAs="String">
+        <value>2.8</value>
+      </setting>
+      <setting name="CZ_MAX_FWHM" serializeAs="String">
+        <value>4</value>
+      </setting>
+      <setting name="CZ_MIN_HEIGHT" serializeAs="String">
+        <value>200</value>
+      </setting>
+      <setting name="MOIS_MAX_FWHM" serializeAs="String">
+        <value>2.8</value>
+      </setting>
+      <setting name="N3_MIN_HEIGHT" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="DIAMOND_MIN_HEIGHT" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="_788_MIN_HEIGHT" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="N3_SIDE2_MIN_HEIGHT" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="NI_SMOOTH_THRESHOLD" serializeAs="String">
+        <value>7.5</value>
+      </setting>
+      <setting name="_468_SMOOTH_THRESHOLD" serializeAs="String">
+        <value>7.5</value>
+      </setting>
+      <setting name="SI_SMOOTH_THRESHOLD" serializeAs="String">
+        <value>7.5</value>
+      </setting>
+      <setting name="LASER_WAVELENGTH" serializeAs="String">
+        <value></value>
+      </setting>
+      <setting name="N3_SIDE2_START_WAVELEN" serializeAs="String">
+        <value>438.7</value>
+      </setting>
+      <setting name="N3_SIDE2_END_WAVELEN" serializeAs="String">
+        <value>440.3</value>
+      </setting>
+      <setting name="USE_N3_SIDE2_SATURATION" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="NI_MIN_HEIGHT" serializeAs="String">
+        <value>200</value>
+      </setting>
+      <setting name="CHECK_RED_FL" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </_405Analyzer>
+  </userSettings>
+</configuration>

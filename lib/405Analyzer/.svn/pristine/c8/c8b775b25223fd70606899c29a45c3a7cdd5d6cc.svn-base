@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="_405Analyzer" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+  <userSettings>
+    <_405Analyzer>
+      <setting name="CR_SATURATION_START_WAVELEN" serializeAs="String">
+        <value>693</value>
+      </setting>
+      <setting name="CR_SATURATION_END_WAVELEN" serializeAs="String">
+        <value>695</value>
+      </setting>
+      <setting name="TI_BAND_START_WAVELEN" serializeAs="String">
+        <value>820</value>
+      </setting>
+      <setting name="TI_BAND_END_WAVELEN" serializeAs="String">
+        <value>900</value>
+      </setting>
+      <setting name="TI_BAND_MAX_SLOPE_DEGREES" serializeAs="String">
+        <value>0.01</value>
+      </setting>
+      <setting name="TI_BAND_MIN_SLOPE_DEGREES" serializeAs="String">
+        <value>-0.001</value>
+      </setting>
+      <setting name="TI_BAND_MAX_STD_ERROR" serializeAs="String">
+        <value>0.005</value>
+      </setting>
+      <setting name="_620_WAVELEN" serializeAs="String">
+        <value>620</value>
+      </setting>
+      <setting name="_750_WAVELEN" serializeAs="String">
+        <value>750</value>
+      </setting>
+      <setting name="_620_750_RATIO" serializeAs="String">
+        <value>1.6</value>
+      </setting>
+    </_405Analyzer>
+  </userSettings>
+</configuration>
